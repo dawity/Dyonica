@@ -47,6 +47,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 
-gem 'font-awesome-rails', '~> 4.1'
+gem 'font-awesome-rails'
 source "https://rubygems.org"
 ruby "2.1.1"
