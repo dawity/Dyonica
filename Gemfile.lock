@@ -29,7 +29,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    bootstrap-sass (3.0.3.0)
+    bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
     builder (3.2.2)
     celluloid (0.15.2)
@@ -145,7 +145,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.0.3.0)
+  bootstrap-sass (~> 3.1.1)
   coffee-rails (~> 4.0.0)
   font-awesome-rails (~> 4.1)
   guard
@@ -153,7 +153,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 4.1.1)
-  sass-rails (~> 4.0.3)
+  sass-rails (>= 3.2)
   sdoc (~> 0.4.0)
   spring
   sqlite3
