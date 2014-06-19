@@ -1,4 +1,68 @@
+/*******************************************************************
+ Work by: Qbitslab
+ Last modified: 06/18/2014
+ Coder: Dawit Haile Achamyelhe
+
+
+******************************************************************/
+
+/******************************************************
+ Customeized variables for Home styling
+********************************************************/
+
+
+$navbar-height:                         70px;
+$navbar-default-bg:                     #00050E;
+$border-radius-base:                    1px;
+$navbar-default-brand-color:             #ffffff;
+$navbar-default-border:                  darken($navbar-default-bg, 6.5%);
+$navbar-default-link-color:              #ffffff;
+$navbar-default-link-hover-color:         #418426;
+$navbar-default-link-active-color:        #6666FF;
+$navbar-default-link-active-bg:           #13173A;
+
 @import "bootstrap";
+
+
+/******************************************************
+  Custome Navigation Style For home
+********************************************************/
+ ul.nav.navbar-nav{
+   margin-left:   5%;
+
+ }
+
+.navbar-brand {
+  
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 40px;
+  height: 70px;
+  padding: 15px 25px;
+  padding-right:   2%;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 1px 1px 1px 1px;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .green {
   color: #21bc5f;
@@ -148,7 +212,7 @@ ul, ol {
 }
 
 ul li, ol li {
-  margin: 5px 0;
+  margin: 0px 0;
   font-size: 15px;
   font-family: 'Julius Sans One','Merriweather', Georgia, Times New Roman, serif;
   line-height: 1.6;
@@ -357,9 +421,8 @@ ul.dropdown-menu {
       border: none;
     }
   }
-  .brand {
-    margin: 0 20px 0 0;
-    padding: 0;
+  .navbar-brand {
+    margin: 0;
     float: left;
     position: relative;
     font-size: 25px;
@@ -437,7 +500,7 @@ ul.dropdown-menu {
       }
     }
   }
-  .nav-user-options {
+  .nav-home-options {
     margin: 1px 0 0;
     li {
       margin: 0 0 0 20px;
@@ -1155,9 +1218,6 @@ footer {
   }
 }
 
-/******************************************************
-  CUSTOM THUNDER STUFF - custom styling for presentation of Thunder portfolio - not recommended for usage elsewhere
-********************************************************/
 
 .container-screenshot {
   margin-bottom: 0;
@@ -1445,15 +1505,12 @@ footer {
         }
       }
     }
-    .brand {
-      margin-left: 20px;
-      margin-bottom: 25px;
-    }
+    
     .navbar-collapse {
       padding-left: 0;
       padding-right: 0;
       clear: both;
-      .nav-user, .nav-menu {
+      .nav-home, .nav-menu {
         margin: 0;
         width: 100%;
         clear: both;
@@ -1463,10 +1520,10 @@ footer {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
       }
-      .nav-user ul.nav, .nav-menu ul.nav {
+      .nav-home ul.nav, .nav-menu ul.nav {
         margin: 0;
       }
-      .nav-user ul.nav li, .nav-menu ul.nav li {
+      .nav-home ul.nav li, .nav-menu ul.nav li {
         margin: 0;
         display: block;
         width: 100%;
@@ -1474,7 +1531,7 @@ footer {
         font-size: 14px;
         text-align: center;
       }
-      .nav-user ul.nav li a {
+      .nav-home ul.nav li a {
         margin: 0;
         padding: 12px 10px !important;
         width: 100%;
@@ -1507,7 +1564,7 @@ footer {
           border-top-color: #fff;
         }
       }
-      .nav-user ul.nav li a {
+      .nav-home ul.nav li a {
         &.btn {
           margin: 0;
           color: #fff;
@@ -1523,13 +1580,13 @@ footer {
         background: #4A5663 !important;
         outline: none;
       }
-      .nav-user ul.nav li a {
+      .nav-home ul.nav li a {
         &.btn:hover, &:focus {
           background: #4A5663 !important;
           outline: none;
         }
       }
-      .nav-menu ul.nav li a:focus, .nav-user ul.nav li a.btn:focus {
+      .nav-menu ul.nav li a:focus, .nav-home ul.nav li a.btn:focus {
         background: #4A5663 !important;
         outline: none;
       }
@@ -1575,7 +1632,7 @@ footer {
           }
         }
       }
-      .nav-user ul.nav li:hover a, .nav-menu ul.nav li:hover a, .nav-user ul.nav li:focus a, .nav-menu ul.nav li:focus a {
+      .nav-home ul.nav li:hover a, .nav-menu ul.nav li:hover a, .nav-home ul.nav li:focus a, .nav-menu ul.nav li:focus a {
         background: #4A5663 !important;
       }
     }
@@ -1739,31 +1796,7 @@ footer {
       padding-left: 15px;
     }
   }
-  .navbar.navbar-fixed-top .navbar-inner .container {
-    padding: 10px 0 0;
-    .row {
-      .brand {
-        margin-bottom: 10px;
-        font-size: 20px;
-        line-height: 1.5;
-      }
-      .navbar-toggle {
-        margin-bottom: 0;
-        padding: 5px 10px;
-      }
-      .nav-user ul.nav-user-options li {
-        display: block;
-        a.btn {
-          margin-bottom: 0;
-          width: 100%;
-          display: block;
-          -moz-box-sizing: border-box;
-          -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-        }
-      }
-    }
-  }
+  
   .container-top.container-wrapper-home.carousel {
     padding: 30px 0 60px;
     .container {
