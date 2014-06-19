@@ -1006,7 +1006,7 @@ ul {
 .container-top.container-wrapper-home.carousel {
   padding: 73px 0 0;
   height: 580px;
-  background: asset-data-url("venice2.png") 25% center no-repeat rgb(22%,22%,27%);
+  background: url(asset-path('venice2.png')) 25% center no-repeat rgb(22%,22%,27%);
   background-size: 100% auto;
   .container {
     padding: 80px 0;
