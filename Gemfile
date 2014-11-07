@@ -7,10 +7,11 @@ gem 'rails', '4.1.1'
 group :production do
   gem 'pg'
   gem 'guard'
-  gem 'rails_12factor'
+
 end
 group :development do
   gem 'sqlite3'
+
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 3.2'
@@ -47,6 +48,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'compass-rails'
 
 gem 'font-awesome-rails'
 source "https://rubygems.org"
